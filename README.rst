@@ -50,7 +50,7 @@
 
 Welcome to ``virtualenv_bootstrap`` Documentation
 ==============================================================================
-Documentation for ``virtualenv_bootstrap``.
+在自动化运维领域, 用 Python 来代替 Bash 来写 shell script 能够极大的提升代码的可维护性. 仅使用标准库就能做到大部分的事情了. 在少数情况下, 我们依然需要安装一些第三方库来完成一些业务逻辑. 通常情况下, 我们需要手动安装依赖, 还有可能需要用到 virtualenv 以避免污染 global Python, 然后才能运行脚本. 这个库的意义是简化这一步骤, 通过自动创建 virtualenv 和安装依赖的方式, 使得你用任何 Python 解释器都能运行你的 shell script.
 
 
 .. _install:
